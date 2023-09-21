@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.logo {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 12px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 12px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  font-size: 18px;
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.menu {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  top: calc(50% - 20px);
+  right: 24px;
+  border-radius: 8px;
+}
+
+.social-media-icons {
+  position: relative;
+  width: 170.17px;
+  height: 20px;
+}
+
+.description {
+  position: relative;
+  line-height: 24px;
+  color: #344563;
+  display: inline-block;
+  width: 327px;
+  height: 146px;
+  flex-shrink: 0;
+}
+
+.supporting-text {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.socialmedia {
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #7f8cff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.letsconnect {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.headline {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(./header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  text-align: left;
+  font-size: 16px;
+  color: #172b4d;
+}
+
+.text {
+  text-align: left;
+  align-items: center;
+  width: 327px;
+  height: 150px;
+  position: relative;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+}
+
